@@ -1,8 +1,8 @@
-import TextArea from 'antd/es/input/TextArea';
 import React from 'react';
+import EditorPage from './EditorPage';
 
 const LandingPage: React.FC = () => {
-  return <TextArea></TextArea>;
+  return <EditorPage />;
 };
 
 export default LandingPage;

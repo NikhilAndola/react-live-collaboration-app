@@ -6,7 +6,7 @@ import cors from 'cors';
 import { initializeSocket } from './socket'; // Import the socket module
 
 const app: Application = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 const server = http.createServer(app);
 
 initializeSocket(server);
